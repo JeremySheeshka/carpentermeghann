@@ -1,15 +1,15 @@
 /* ============================================================
-   Carpenter Meghann B — Global Styles v3
-   "Original Coast Palette" — restored from the pre-Astro site
+   Carpenter Meghann B · Global Styles v3
+   "Original Coast Palette", restored from the pre-Astro site
    Palette: navy #1D3557 · blue #457B9D · cream #F1FAEE ·
             teal #A8DADC · red #E63946
-   Dark (default) + Light themes — both share the original brand
+   Dark (default) + Light themes, both share the original brand
    colors; the light theme is the original blue-body look.
    Display: Fraunces Variable · Body: system sans
    ============================================================ */
 
 :root {
-  /* Palette — the original five-color brand palette */
+  /* Palette: the original five-color brand palette */
   --navy-950: #081527;
   --navy-900: #0d1f33;
   --navy-800: #1d3557;
@@ -29,7 +29,7 @@
   --bg-surface: var(--navy-900);
   --bg-elevated: var(--navy-800);
   --bg-card: var(--navy-900);
-  --bg-band: #122b47;   /* accent sections — slightly lighter than surface so cards read on top */
+  --bg-band: #122b47;   /* accent sections: slightly lighter than surface so cards read on top */
   --fg: var(--cream);
   --fg-muted: var(--teal-400);
   --fg-dim: rgba(168, 218, 220, 0.62);
@@ -39,7 +39,7 @@
   --border-light: rgba(98, 153, 184, 0.55);
   --hairline: rgba(168, 218, 220, 0.14);
 
-  /* Header tokens — solid navy bar so the white logo always reads */
+  /* Header tokens: solid navy bar so the white logo always reads */
   --header-bg: rgba(8, 21, 39, 0.9);
   --header-fg: var(--cream);
   --header-fg-muted: rgba(241, 250, 238, 0.72);
@@ -111,7 +111,7 @@
 }
 
 /* ============================================================
-   LIGHT THEME — the original site look
+   LIGHT THEME: the original site look
    Navy header, blue body, cream text, teal + red accents
    ============================================================ */
 
@@ -120,7 +120,7 @@
   --bg-surface: #1d3557;         /* original navy cards / sections */
   --bg-elevated: #2d4d79;        /* lighter navy for elevated panels */
   --bg-card: #1d3557;
-  --bg-band: #4d84a5;            /* accent sections — lighter blue than the body */
+  --bg-band: #4d84a5;            /* accent sections: lighter blue than the body */
 
   --fg: #f1faee;                 /* original cream text */
   --fg-muted: #cfe4e6;           /* light teal-tinted muted text */
@@ -287,7 +287,7 @@ hr {
    NEW PRIMITIVES (v2)
    ============================================================ */
 
-/* Eyebrow — small caps label with teal tick */
+/* Eyebrow: small caps label with teal tick */
 .eyebrow {
   display: inline-flex;
   align-items: center;
@@ -699,7 +699,7 @@ html[data-theme='light'] .theme-toggle .icon-moon {
   height: 1.5rem;
 }
 
-/* Drawer backdrop — dims content while the menu is open */
+/* Drawer backdrop: dims content while the menu is open */
 .nav-backdrop {
   position: fixed;
   top: 4.5rem;

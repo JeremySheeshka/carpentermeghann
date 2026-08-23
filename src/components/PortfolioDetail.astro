@@ -36,7 +36,7 @@ const gallery = await Promise.all(
 ---
 
 <BaseLayout
-  title={`${title} — Carpenter Meghann B`}
+  title={`${title} | Carpenter Meghann B`}
   description={description}
   image={heroOg}
 >
@@ -44,7 +44,7 @@ const gallery = await Promise.all(
     <div class="container">
       <div class="pd-hero-grid">
         <div class="pd-hero-content">
-          <p class="eyebrow">Project {String(index).padStart(2, '0')} of {String(total).padStart(2, '0')} — Portfolio</p>
+          <p class="eyebrow">Project {String(index).padStart(2, '0')} of {String(total).padStart(2, '0')} · Portfolio</p>
           <h1>{title}</h1>
           <div class="pd-intro flow">
             <slot />

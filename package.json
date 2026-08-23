@@ -1,7 +1,7 @@
 {
   "name": "carpenter-meghann",
   "version": "2.0.0",
-  "description": "Carpenter Meghann B — Imagination to Reality carpentry in Prince Rupert, BC",
+  "description": "Carpenter Meghann B. Imagination to Reality carpentry in Prince Rupert, BC",
   "type": "module",
   "scripts": {
     "dev": "astro dev",

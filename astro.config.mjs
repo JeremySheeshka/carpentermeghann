@@ -10,6 +10,10 @@ export default defineConfig({
   }),
   integrations: [sitemap()],
   build: {
-    assets: 'assets'
+    assets: 'assets',
+    // Inline stylesheets into the HTML so the page paints fully styled on first
+    // load: no flash of unstyled content, no off-canvas menu sliding in/out,
+    // and one fewer render-blocking request.
+    inlineStylesheets: 'always'
   }
 });
